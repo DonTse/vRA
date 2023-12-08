@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportId: "8a7480d98c431c3a018c444c04410000"
+name: "ABX new hostname action"
+runtime: "powershell"
+entrypoint: "handler"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
