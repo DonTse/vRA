@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportId: "8a7480608c8ae604018c8c8a11a9007a"
+name: "ABX modify properties"
+runtime: "powershell"
+entrypoint: "handler"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
